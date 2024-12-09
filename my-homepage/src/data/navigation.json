@@ -2,23 +2,23 @@
     "menuItems": [
         {
             "id": "about",
-            "textLabel": "About", 
-            "icon": "User"
+            "label": "About", 
+            "iconName": "User"
         },
         {
             "id": "experience",
-            "textLabel": "Experience",
-            "Briefcase": "Briefcase"
+            "label": "Experience",
+            "iconName": "Briefcase"
         },
         {
             "id": "projects",
-            "textLabel": "Projects",
-            "Briefcase": "Code"
+            "label": "Projects",
+            "iconName": "Code"
         },
         {
             "id": "contact",
-            "textLabel": "Contact me!",
-            "Briefcase": "Mail"
+            "label": "Contact me!",
+            "iconName": "Mail"
         }
     ]
 }
