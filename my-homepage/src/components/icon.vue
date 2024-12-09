@@ -8,7 +8,7 @@
     v-html="iconSvg"></span>
 </template>
 
-<!-- Inhämtning av ikonsamlingen. Anger att namnet på komponenten är "icon" samt definierar/skapar tre properties för ikonerna; namn, size och color -->
+<!-- Inhämtning av ikonsamlingen. Skapar samlingar av storleks- och färgalternativ. Skapar tre properties för ikonerna; namn, size och color -->
 <script>
 import {Icons} from "../assets/icons";
 
@@ -58,7 +58,7 @@ export default {
 };
 </script>
 
-<style scoped lang="postcss">
+<style scoped>
 span :deep(svg){
     @apply w-full h-full;
 }

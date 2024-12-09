@@ -1,3 +1,6 @@
+        //Ikonhantering
+
+// Inhämtning av src ikoner
 import userIcon from "./userIcon.svg";
 import briefcaseIcon from "./briefcaseIcon.svg";
 import codeIcon from "./codeIcon.svg";
@@ -8,6 +11,7 @@ import linkIcon from "./linkIcon.svg";
 import sunIcon from "./sunIcon.svg";
 import moonIcon from "./moonIcon.svg";
 
+//Export av ikoner som samling
 export const Icons = {
     User: userIcon,
     Briefcase: briefcaseIcon,
@@ -19,5 +23,3 @@ export const Icons = {
     Sun: sunIcon,
     Moon: moonIcon
 }
-
-export default Icons;
