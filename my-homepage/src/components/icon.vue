@@ -5,7 +5,10 @@
     <span
     class="inline-flex"
     :class="[sizeClass, colorClass]"
-    v-html="iconSvg"></span>
+    > 
+    <img :src="iconSrc" 
+    alt="name">
+    </span>
 </template>
 
 <!-- Inhämtning av ikonsamlingen. Skapar samlingar av storleks- och färgalternativ. Skapar tre properties för ikonerna; namn, size och color -->
@@ -60,6 +63,7 @@ export default {
 
 <style scoped>
 span :deep(svg){
-    @apply w-full h-full;
+     width: 100%;
+     height: 100%;
 }
 </style>
