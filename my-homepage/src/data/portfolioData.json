@@ -4,7 +4,7 @@
             "title":"Service Manager",
             "company":"Örebro Kårhusrestaurang AB",
             "period":"2022 May - Present",
-            "description":"Leading teams of students through nightclubs, pubs and miscellaneous events thorough their shift. My role is to ensure the team is fully equipped with all necessary knowledge, including their position and according laws, to make it through the night!"
+            "description":"Leading teams of students through nightclubs, pubs and miscellaneous events. My role is to ensure the team is fully equipped with all necessary knowledge, including their position and according laws, to make it through the night!"
         },
         {
             "title":"IT-Consultant",
@@ -67,7 +67,7 @@
             "title":"Website for a game dev",
             "description":"A website made with (mostly) pure HTML, CSS and JS, with some instances of VueJs as part of a course. A live version's available at the link, while the source code's available on my GitHub!",
             "techstack": ["HTML", "CSS", "JavaScript", "VueJs"],
-            "link": ""
+            "link": "https://github.com/Karam-a/Website_IK201G"
         },
         {
             "title":"Java app for a hatmaker",

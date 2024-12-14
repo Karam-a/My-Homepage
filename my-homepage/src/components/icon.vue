@@ -6,7 +6,7 @@
     class="inline-flex"
     :class="[sizeClass, colorClass]"
     > 
-    <img :src="iconSrc" 
+        <img :src="iconSvg" 
     alt="name">
     </span>
 </template>
@@ -26,7 +26,8 @@ const IconColors = {
     current: 'text-current',
     prim: 'text-blue-500',
     sec: 'text-purple-500',
-    gray: 'text-gray-500'
+    gray: 'text-gray-500',
+    black: 'text-black-500'
     };
 
 export default {
